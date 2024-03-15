@@ -1,0 +1,54 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+
+.headerphoto {
+    width: 1519px;
+    overflow: hidden;
+}
+
+.headerphoto img {
+    width: 1519px;
+    margin: -120px 0 -550px 0;
+}
+
+.gradient{
+	width: 1519px;
+	height: 100px;
+	/*background-color: gray;*/
+	background: linear-gradient(transparent, white);
+	position:absolute;
+	z-index: 2;
+	left:0px;
+	bottom:0px
+}
+
+.headertitle {
+	font-family: Arial; /*dasfgh*/
+	font-size: 45px;/*размер в пикселях*/
+	font-weight: 1000; /*толщина букв* от 100 до 1000*/
+	color: #000000;
+	text-align: center;
+}
+
+.subtitle {
+	font-family: Arial; /*dasfgh*/
+	font-size: 30px;/*размер в пикселях*/
+	font-weight: 700;
+	color: #000000;
+	padding-left: 290px;
+}
+
+.text{
+	font-family: Arial;
+	line-height: 20px;/*междустрочный интервал*/
+	letter-spacing: 1px;/*расстояние между буквами*/
+	text-indent: 25px;
+	padding-left: 90px;
+}
+
+.subphoto img {
+    width: 750px;
+    padding-left: 120px;
+}
